@@ -1,46 +1,53 @@
-# 🧪 QA Engineer Portfolio | Функциональное и API-тестирование
+# 🧪 QA Engineer | Functional & API Testing
 
-Привет! Я начинающий QA Engineer с коммерческим опытом в тестировании веб-сервисов (6 месяцев). В этом репозитории собраны мои практические работы, демонстрирующие навыки тест-дизайна, работы с API и применения AI-инструментов для автоматизации тестирования.
+Junior QA Engineer with 6 months of commercial experience testing web services (client-server architecture, REST API). This repository collects my hands-on work in test design, API testing, and UI + API test automation, including the use of AI tools.
 
-## 🛠 Мой стек и навыки
+## 🛠 Skills
 
-Тестирование: Функциональное, регрессионное, приемочное. Техники тест-дизайна (эквивалентные классы, граничные значения).\
-Инструменты: Postman, Swagger, DevTools, Jira.\
-Данные: SQL (PostgreSQL), написание простых запросов для проверки корректности данных.\
-AI-инструменты: Использую ChatGPT и Claude Code для написания SQL-запросов и создания простых автотестов.
+- **Testing:** functional, regression, and acceptance testing; test design techniques (equivalence partitioning, boundary value analysis); test cases, checklists, defect reports
+- **Tools:** Postman, Swagger, Browser DevTools, Jira
+- **Data:** SQL (PostgreSQL), simple queries to verify data correctness
+- **Automation:** Java, Selenide, RestAssured, JUnit 5, Gradle, Playwright
+- **AI tools:** ChatGPT and Claude Code for writing SQL queries and generating simple automated tests, then reviewing and debugging the output
 
-## 📂 Примеры работ (Репозитории)
+## 📂 Projects
 
-**1. E2E-автотесты (UI + API) для банковского приложения**
-*   **Стек:** Java 11, Selenide, RestAssured, JUnit 5, JavaFaker, Gradle, CI/CD (AppVeyor).
-*   **Описание:** Комплексный проект, демонстрирующий навыки автоматизации тестирования. Включает проверку пользовательского интерфейса (UI) и программного интерфейса (API) в рамках единых сквозных сценариев. 
-*   **Ключевые фичи:** 
-    *   Использование паттерна Page Object.
-    *   Генерация валидных случайных данных для форм с помощью JavaFaker (без хардкода).
-    *   Настройка непрерывной интеграции (AppVeyor): автоматический запуск тестов в headless-режиме при каждом коммите.
-*   🔗 [Посмотреть код на GitHub](https://github.com/inkeiter/e2e-testing-java-selenide)
+### 1. E2E Tests (UI + API) for a Banking Application
+**Stack:** Java 11, Selenide, RestAssured, JUnit 5, JavaFaker, Gradle, CI (AppVeyor)
 
-**2. Тестовая документация (QA Documentation)**
-*   **Стек:** Jira (формат баг-репортов), Markdown, ISTQB-стандарты.
-*   **Описание:** Репозиторий с артефактами ручного тестирования, демонстрирующий навыки тест-дизайна, анализа требований и оформления документации. 
-*   **Ключевые фичи:** 
-    *   Структурированные тест-кейсы с шагами, тестовыми данными и ожидаемыми результатами (по стандартам ISTQB).
-    *   Чек-листы для функционального тестирования веб-форм (позитивные и негативные сценарии).
-    *   Примеры отчетов о дефектах (Defect Reports) в формате Jira с указанием Severity, Priority и шагов воспроизведения.
-*   🔗 [Посмотреть документацию на GitHub](https://github.com/inkeiter/qa-documentation)
+An end-to-end test suite that checks the user interface and the API within single scenarios.
 
-**3. AI-Driven E2E (Playwright + ChatGPT/Claude)**
-*   **Стек:** Python (или JS), Playwright, LLM (ChatGPT/Claude).
-*   **Описание:** Пет-проект, демонстрирующий современный подход к автоматизации с использованием генеративного ИИ. 
-*   **Ключевые фичи:** 
-    *   Написание промптов для генерации E2E-тестов.
-    *   Запуск сгенерированного кода и отладка ошибок (как в AI, так и в самом тесте).
-    *   Освоение современного инструмента Playwright с нуля за счет возможностей нейросетей.
-*   🔗 [Посмотреть код на GitHub](https://github.com/inkeiter/saucedemo-ai-e2e)
+- Page Object pattern
+- Valid random test data for forms generated with JavaFaker (no hardcoded values)
+- Continuous integration with AppVeyor: tests run automatically in headless mode on every commit
 
-## 🔗 Обо мне
+🔗 [View code on GitHub](LINK)
 
-Опыт: 6 месяцев коммерческого QA в веб-сервисах (клиент-серверная архитектура, API).\
-Английский: Читаю техническую документацию (B1-B2).\
-linkedin: www.linkedin.com/in/ekaterina-popova-94ab30423. \
-tg: @keiterin
+### 2. QA Documentation
+**Stack:** Jira (bug report format), Markdown, ISTQB terminology
+
+Manual testing artifacts that show requirements analysis, test design, and clear documentation.
+
+- Structured test cases with steps, test data, and expected results
+- Checklists for functional testing of web forms (positive and negative scenarios)
+- Sample defect reports in Jira format with severity, priority, and steps to reproduce
+
+🔗 [View documentation on GitHub](LINK)
+
+### 3. AI-Assisted E2E Testing (Playwright + ChatGPT/Claude)
+**Stack:** [Python / JavaScript], Playwright, LLMs (ChatGPT, Claude)
+
+A pet project exploring how generative AI can speed up test automation.
+
+- Writing prompts to generate E2E tests
+- Running the generated code and debugging errors, both in the AI output and in the test itself
+- Learning Playwright from scratch with the help of AI tools
+
+🔗 [View code on GitHub](LINK)
+
+## 🔗 About me
+
+- **Experience:** 6 months of commercial QA on web services (client-server architecture, API)
+- **English:** reading technical documentation (B1–B2)
+- **LinkedIn:** [linkedin.com/in/ekaterina-popova-94ab30423](https://www.linkedin.com/in/ekaterina-popova-94ab30423)
+- **Telegram:** @keiterin
